@@ -4,7 +4,8 @@ import { useEffect, useState } from 'react'
 import colors from '../utils/globals/colors'
 import Header from '../components/Header'
 
-const PetDetail = ({petId, portrait}) => {
+const PetDetail = ({route}) => {
+    const {petId} = route.params
     const [pet, setPet] = useState({})
 
     useEffect(()=>{
@@ -83,4 +84,3 @@ const styles = StyleSheet.create({
         color:"white"
       }
 })
-
