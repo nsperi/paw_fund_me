@@ -7,9 +7,9 @@ const CartItem = ({item}) =>{
     return(
         <View style={styles.card}>
             <View style={styles.textContainer}>
-                <Text style={styles.text}>{item.title}</Text>
-                <Text style={styles.text2}>{item.brand}</Text>
-                <Text style={styles.text2}>{item.price}</Text>
+                <Text style={styles.text}>{item.name}</Text>
+                <Text style={styles.text2}>{item.descripcion}</Text>
+                <Text style={styles.text2}>{item.stock}</Text>
             </View>
             <Entypo name="trash" size={30} color="black"/>
         </View>

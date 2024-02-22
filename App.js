@@ -12,7 +12,7 @@ const App = () => {
 
   return (
     <>
-      <StatusBar backgroundColor={colors.green1} />
+      <StatusBar backgroundColor={colors.bgcolor} />
       <MainNavigator/>
     </>
     
